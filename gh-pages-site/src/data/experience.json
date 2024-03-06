@@ -1,0 +1,44 @@
+{
+    "employment_history": [
+      {
+        "position": "Software Engineer",
+        "company": "Wayfair",
+        "duration": "July 2017 - Present",
+        "teams": [
+          {
+            "name": "Batch Notifications Team",
+            "accomplishments": [
+              "Wrote a process in Java using Spark to build lists of tens of millions of customers faster (~4% compared to the legacy process).",
+              "Reduced troubleshooting time to essentially zero for the team and stakeholders.",
+              "Led the initiative to rewrite old, poorly scalable SQL code, saving time and reducing CPU strain on the server.",
+              "Curated a PHP and React web tool for stakeholders on the marketing team."
+            ]
+          },
+          {
+            "name": "SQL Server Performance Team",
+            "accomplishments": [
+              "Used SolarWinds DPA and SentryOne Plan Explorer to identify problem areas in the codebase.",
+              "Relayed actionable information to developers throughout Wayfair.",
+              "Acted as primary PHP/JS developer in the Datatech engineering group.",
+              "Owned multiple processes, including the database code deployment pipeline, an API to sniff SQL code, and a tool to search for database replication information."
+            ]
+          }
+        ]
+      },
+      {
+        "position": "Software Development Intern",
+        "company": "Lattice Automation",
+        "duration": "May 2015 - 2016",
+        "teams": [
+          {
+            "name": "Lattice Automation",
+            "accomplishments": [
+              "Developed web pages with CRUD functionality and RESTful web services on top of the company database.",
+              "Leveraged the BioJava library and various APIs to work with DNA sequence information."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

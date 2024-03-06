@@ -4,6 +4,8 @@ import './App.css';
 import { Hero } from './components/hero';
 import { SectionHeading } from './components/section_heading';
 import { SkillCard } from './components/skill_card';
+import { ExperienceCard } from './components/experience_card';
+import experienceData from './data/experience.json';
 
 function App() {
   return (
@@ -11,8 +13,15 @@ function App() {
       <header className="App-header">
         <Hero title="Cullen Deimer" subtitle="Full Stack Software Developer" />
       </header>
+
+      <SectionHeading heading="Experience" />
+      <div className="card-grid">
+        {experienceData.employment_history.map((job, index) => (
+          <ExperienceCard key={index} job={job} />
+        ))}
+      </div>
+
       <SectionHeading heading="About Me" />
-      
       <div className="card-grid">
         <SkillCard title="Python" text="Strong Python skills including experience with FastAPI, Django, and more." />
         <SkillCard title="Databases" text="Years of hands on experience with SQL Server with a focus on performance." />
