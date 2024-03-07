@@ -15,11 +15,9 @@ function App() {
       </header>
 
       <SectionHeading heading="Experience" />
-      <div className="card-grid">
         {experienceData.employment_history.map((job, index) => (
           <ExperienceCard key={index} job={job} />
         ))}
-      </div>
 
       <SectionHeading heading="About Me" />
       <div className="card-grid">

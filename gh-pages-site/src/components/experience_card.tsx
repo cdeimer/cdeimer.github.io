@@ -23,11 +23,11 @@ export const ExperienceCard: React.FC<Job> = ({ job }) => {
             <h1>{job.company}</h1>
             <h2>{job.position}</h2>
             <h3>{job.duration}</h3>
-            <div className="card-grid">
+            <div className="card-grid experience-grid">
                 {job.teams.map((team, index) => (
-                    <div key={index} className="card">
-                        <h3>{team.name}</h3>
-                        <ul>
+                    <div key={index} className="card experience-card">
+                        <h3 className='experience-heading'>{team.name}</h3>
+                        <ul className='experience-list'>
                             {team.accomplishments.map((accomplishment, index) => (
                                 <li key={index}>{accomplishment}</li>
                             ))}

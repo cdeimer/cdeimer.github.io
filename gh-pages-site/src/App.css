@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #e0e0e0;
 }
 
 .App-logo {
@@ -57,6 +58,10 @@
   justify-content: center;
 }
 
+.card-grid.experience-grid {
+  flex-wrap: row;
+}
+
 .card {
   flex-grow: 1;
   padding: 20px;
@@ -69,6 +74,19 @@
   background: #e0e0e0;
   box-shadow:  9px 9px 18px #c7c7c7,
               -9px -9px 18px #f9f9f9;
+}
+
+.card.experience-card {
+  width: 550px;
+  flex-grow: unset;
+}
+
+.experience-heading {
+  text-align: center;
+}
+
+.experience-list {
+  text-align: left;
 }
 
 @keyframes App-logo-spin {
