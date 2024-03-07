@@ -20,9 +20,11 @@ interface EmploymentHistory {
 export const ExperienceCard: React.FC<Job> = ({ job }) => {
     return (
         <div className="company-section">
-            <h1>{job.company}</h1>
-            <h2>{job.position}</h2>
-            <h3>{job.duration}</h3>
+            <div className='company-heading'>
+                <h1 className='company-name'>{job.company}</h1> ●
+                <h1 className='job-position'>{job.position}</h1> ●
+                <h1 className='job-duration'>{job.duration}</h1>
+            </div>
             <div className="card-grid experience-grid">
                 {job.teams.map((team, index) => (
                     <div key={index} className="card experience-card">

@@ -46,6 +46,29 @@
   padding: 20px;
 }
 
+.company-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-transform: uppercase;
+}
+
+.company-name {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.job-position {
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+.job-duration {
+  font-size: 2em;
+  font-weight: bold;
+}
+
 .card-grid {
   background-color: #e0e0e0;
   display: flex;
